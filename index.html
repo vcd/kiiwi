@@ -7,7 +7,10 @@ title: Thomas Jekyll Site
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; 
+      	<a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+
+    <li><a href="{% post_url 2014-03-05-welcome-to-jekyll.markdown %}">Hard Code</a></li>
   </ul>
 </div>
