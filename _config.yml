@@ -1,4 +1,4 @@
-name: Jekyll Test
+name: Kiwi
 markdown: redcarpet
 pygments: true
-baseurl: /jekyll-demo
+baseurl: /kiiwi
