@@ -4,6 +4,9 @@
 /*
 /*****************************************************************************/
 
+
+
+
 /* Global Reset */
 * {
   margin: 0;
@@ -13,7 +16,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: red;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
